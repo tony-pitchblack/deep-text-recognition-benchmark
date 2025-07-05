@@ -1,0 +1,12 @@
+name: trocr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pillow
+  - torchvision
+  - nltk
+  - natsort
+  - pip:
+    - lmdb
+    - gdown
