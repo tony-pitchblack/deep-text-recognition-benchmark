@@ -1,4 +1,4 @@
-name: trocr
+name: dl-ocr-bench
 channels:
   - conda-forge
 dependencies:

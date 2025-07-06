@@ -1,0 +1,3 @@
+[console_scripts]
+demo = demo:main
+download-pretrained = download_pretrained:download_pretrained
