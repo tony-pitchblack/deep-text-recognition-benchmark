@@ -8,7 +8,7 @@ def download_pretrained():
     os.makedirs("ckpt/pretrained", exist_ok=True)
     
     # Model URL
-    url = "https://drive.google.com/file/d/1ajONZOgiG9pEYsQ-eBmgkVbMDuHgPCaY/view?usp=drive_link"
+    url = "https://drive.google.com/file/d/1b59rXuGGmKne1AuHnkgDzoYgKeETNMv9/view?usp=drive_link" # HACK: hardcoded; TODO: handle ckpt management better
     output_path = "ckpt/pretrained/TPS-ResNet-BiLSTM-Attn.pth"
     
     try:
