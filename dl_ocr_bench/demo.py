@@ -1,7 +1,7 @@
 import string
 import argparse
 
-from inference import Predictor
+from dl_ocr_bench.inference import Predictor
 
 
 def demo(opt):

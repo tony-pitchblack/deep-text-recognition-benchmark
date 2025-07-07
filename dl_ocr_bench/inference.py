@@ -4,9 +4,9 @@ import torch.utils.data
 import torch.backends.cudnn as cudnn
 import string
 
-from utils import CTCLabelConverter, AttnLabelConverter
-from dataset import RawDataset, AlignCollate
-from model import Model
+from dl_ocr_bench.utils import CTCLabelConverter, AttnLabelConverter
+from dl_ocr_bench.dataset import RawDataset, AlignCollate
+from dl_ocr_bench.model import Model
 
 
 class Predictor:

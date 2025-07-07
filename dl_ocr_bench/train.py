@@ -12,10 +12,10 @@ import torch.optim as optim
 import torch.utils.data
 import numpy as np
 
-from utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager
-from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset
-from model import Model
-from test import validation
+from dl_ocr_bench.utils import CTCLabelConverter, CTCLabelConverterForBaiduWarpctc, AttnLabelConverter, Averager
+from dl_ocr_bench.dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset
+from dl_ocr_bench.model import Model
+from dl_ocr_bench.test import validation
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 

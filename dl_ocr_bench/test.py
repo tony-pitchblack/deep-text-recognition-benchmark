@@ -11,9 +11,9 @@ import torch.nn.functional as F
 import numpy as np
 from nltk.metrics.distance import edit_distance
 
-from utils import CTCLabelConverter, AttnLabelConverter, Averager
-from dataset import hierarchical_dataset, AlignCollate
-from model import Model
+from dl_ocr_bench.utils import CTCLabelConverter, AttnLabelConverter, Averager
+from dl_ocr_bench.dataset import hierarchical_dataset, AlignCollate
+from dl_ocr_bench.model import Model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
